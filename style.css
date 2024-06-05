@@ -1,7 +1,7 @@
 :root{
     --branco-principal: #FFFFFF; 
-    --cinza-secundario: #8a5858; 
-    --botao-azul:#167BF7;
+    --cinza-secundario: #aa48aa; 
+    --botao-azul: #3a09eb;
     --cor-de-fundo: #000000;
 }
 *{
@@ -20,6 +20,8 @@ body{
 }
 .container{
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .container-botao{
     background-color: var(--cinza-secundario);
